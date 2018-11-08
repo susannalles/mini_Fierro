@@ -1,2 +1,2 @@
 # mini_Fierro
-Minimal Edition of Martin Fierro
+Edición mínima de Martin Fierro
