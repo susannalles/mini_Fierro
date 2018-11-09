@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Mini Fierro</title>
+ <link href="http://localhost:4000/mini_Fierro/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/mini_Fierro/"/>
+ <updated>2018-11-09T12:05:07-03:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Susanna Allés Torrent</name>
+   <email>susanna_alles@miami.edu</email>
+ </author>
+
+ 
+
+</feed>
