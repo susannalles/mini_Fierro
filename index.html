@@ -4,7 +4,7 @@ title: "Home"
 ---
 <div class="introduction">
 
-<p>Iniciativa colaborativa para crear una edición con tecnologías mínimas y según los principios del <a href="http://go-dh.github.io/mincomp/">minimal computing principles</a>..., and focused on legibility, durability, ease and flexibility. Our underlying technology is easy to learn and teach, and can produce beautifully rendered scholarly or reading editions of texts meant to last. To start using Ed, please see <a href="{{ site.baseurl }}/documentation/">our documentation</a> for installation instructions and more. To learn more about the ideas behind Ed and a list of current features see our <a href="{{ site.baseurl }}/about/">about</a> section. To see Ed in action, we've provided some sample minimal editions for you below.</p>
+<p>Iniciativa colaborativa para crear una edición con tecnologías mínimas de la obra <i>El Gaucho Martín Fierro</i>. Seguimos los principios del <a href="http://go-dh.github.io/mincomp/">minimal computing</a>, y ofrecemos un texto fácil de leer en pantalla y flexible. Esta edición se ha construido a partir del tema de Jekyll <a href="https://minicomp.github.io/ed/">Ed</a>, que ofrece un entorno de fácil instalación a través de <a href="https://pages.github.com/">GitHub Pages</a>. </p>
 </div>
 
 <hr>
@@ -13,9 +13,8 @@ title: "Home"
   <h2>Acceso a los capítulos</h2>
   <ol class="texts">
 
-  
-    {% assign sorted = (site.texts | sort: 'order') %}
-{% for item in sorted %}
+	{% assign sorted = (site.texts | sort: 'order') %}
+	{% for item in sorted %}
 
     <li class="text-title">
       <a href="{{ site.baseurl }}{{ item.url }}">
